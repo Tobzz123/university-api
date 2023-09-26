@@ -32,6 +32,11 @@ D.) Cloud Hosting
  - This also means models and DB context have been scaffolded from the database. The context contains DBSet objects representing database tables
 
 
+**Bonus Requirement**
+Unit Tests: I would use NUnit or any other testing frameworks like xUnit or MSTest. This would allow me to set up tests using AAA (Arrange, Act, Assert) methods to test the endpoint for enrolling a student in a course. Using a testing environment like this means being mindful of different dependencies, like the database for example. I would have to employ the use of mocking for the database (Moq framework), meaning I'd only test the behaviours of calls made to the database, and making sure the request to the specified endpoint is returning back the correct data.
+
+Swagger or Postman: I would make use of Swagger or Postman to test the API endpoint to be used when a student is enrolling for a course,. For a student to enrol in a course, this means the course would get added to the student's list of courses. On the database side, we should check the Registrations Table for a record that corresponds to the course ID and student ID passed in by sending a get request to that specific endpoint.
+
 **Link Diagrams**
 
 
