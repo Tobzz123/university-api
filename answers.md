@@ -1,7 +1,4 @@
-# raccoopack-backend-challenge
-Ola's Backend Technical Challenge for RaccooPack Media
-
-**Challenge Answers**
+**System Design Analysis**
 Answer #1: Backend Tech Stack
 
 **Rationale & Assumptions**
@@ -99,7 +96,7 @@ Swagger or Postman: I would make use of Swagger or Postman to test the API endpo
 
 
 
-**Time Spent on Challenge**
+**Time Spent on Design**
 
 ERD: 38mins 9 seconds
 Rest of project: 1 hour 38 mins 14 seconds
